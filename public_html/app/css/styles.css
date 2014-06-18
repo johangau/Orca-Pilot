@@ -1,0 +1,61 @@
+body{
+	/*background: #161718;*/
+	color: #9b9b9b;
+	font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif;
+    font-size: 11px;
+    margin: 0px;    
+}
+
+table.usertable{
+	/*border: 1px solid #9b9b9b;*/
+	border-spacing: 0px;
+	width: 100%;
+}
+
+img.button{
+	margin: 5px;
+}
+
+img.operationicon{
+	margin: 5px;
+	width: 36px;
+	height: 36px;
+}
+
+tr.yxi{
+	background-color: #181920;
+	text-align: center;
+}
+tr.mainlistitem{
+	
+	background-image:url(../images/yxigreen.png);
+	/*background-color: #184020;*/
+	text-align: center;
+	width:200px;
+}
+tr.kaxi{
+	background-image:url(../images/kaxigreen.png);
+	background-color: #212223;
+	text-align: center;
+}
+tr.kolme{
+	background-color: #252627;
+	text-align: center;
+}
+tr.kolmered{
+	background-color: #402627;
+	text-align: center;
+}
+input.dark{
+	background-color: #192021;
+	color:#9b9b9b;
+}
+input.button{
+	margin: 5px;
+}
+select.dark{
+	background-color: #192021;
+	color:#9b9b9b;		margin: 5px;
+}
+
