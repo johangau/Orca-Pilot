@@ -11,8 +11,8 @@ class dBc{
 	 * connecting to the database
 	 */
 	function connect(){
-		$this->link = mysql_connect('localhost', 'orcapilo_tt', 'muppeli01!!') or die('Could not connect: ' . mysql_error());
-		mysql_select_db('orcapilo_orcapilot_0_2') or die('Could not select database');
+		$this->link = mysql_connect('localhost', 'losteve_orcapilot', '1Benjamin!') or die('Could not connect: ' . mysql_error());
+		mysql_select_db('losteve_orcapilot') or die('Could not select database');
 
 	}
 	
@@ -24,7 +24,7 @@ class dBc{
 	}
 	
 	static function escape($string){
-		$tmplink = mysql_connect('localhost', 'orcapilo_tt', 'muppeli01!!') or die('Could not connect: ' . mysql_error());
+		$tmplink = mysql_connect('localhost', 'losteve_orcapilot', '1Benjamin!') or die('Could not connect: ' . mysql_error());
 		$escaped_string = mysql_real_escape_string($string,$tmplink);
 		mysql_close($tmplink);
 		return $escaped_string;
