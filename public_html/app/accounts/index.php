@@ -1,8 +1,9 @@
-<?php 
-	$path = '/home3/johangau/orcapilot';
-	set_include_path(get_include_path() . PATH_SEPARATOR . $path);	
-	include 'framework_0_2/_header.php'; 
-	?>
+<?php
+
+
+
+?>
+
 <div align="center">
 <!--form action="operations.php?"-->
 <form action="lounge/">
@@ -27,5 +28,5 @@
 
 
 </form>
-
-<?php include 'framework_0_2/_footer.php'; ?>
+<br><br>
+Don't have an account yet? <a href="create.php">Click here to create an account</a>
